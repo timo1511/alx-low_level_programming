@@ -1,9 +1,4 @@
-/*
- * File: 10-add.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * add - Adds two integers.
@@ -12,7 +7,7 @@
  *
  * Return: The result of the addition.
  */
-int add(int num1, int num2)
+int add(int a, int b)
 {
-	return (num1 + num2);
+	return (a + b);
 }
