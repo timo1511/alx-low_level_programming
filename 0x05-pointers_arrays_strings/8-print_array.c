@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 		printf("%d", a[index]);
 		if (index != (n - 1))
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	putchar('\n');
