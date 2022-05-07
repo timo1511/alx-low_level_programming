@@ -7,8 +7,8 @@
  *
  * @str: This is the input string
  *
- * Return: function returns a pointer to the duplicated string. It returns 
- * NULL if insufficient memory was available
+ * Return: function returns a pointer to the duplicated string. It return
+ * suficient memory was available
 */
 char *_strdup(char *str)
 {
