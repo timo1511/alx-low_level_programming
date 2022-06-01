@@ -20,7 +20,7 @@ unsigned int binary_to_unit(const char *b)
 			num = (num << 1) | 1;
 		else if (*b == '0')
 			num = num << 1;
-		else 
+		else
 			return (0);
 	}
 	return (num);
